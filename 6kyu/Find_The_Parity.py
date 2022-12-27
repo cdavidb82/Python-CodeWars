@@ -18,7 +18,3 @@ def find_outlier(integers):
         return sum(isEven)
     else:
         return sum([n for n in integers if n % 2 != 0])
-
-
-if __name__ == "__main__":
-    pass
